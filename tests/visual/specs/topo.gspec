@@ -1,0 +1,16 @@
+@objects
+  topo css .box-title
+    logo css img
+    idiomas css div
+      idiomas-selecionado css b
+
+= Topo =
+  topo.logo:
+    width 300 px
+    inside topo
+    @on desktop:
+      left-of topo.idiomas > 300 px
+    @on ipad:
+      left-of topo.idiomas > 190 px
+    @on iphone:
+      left-of topo.idiomas > 0 px

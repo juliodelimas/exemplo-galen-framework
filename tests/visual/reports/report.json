@@ -1,0 +1,45 @@
+{
+  "tests" : [ {
+    "name" : "Requirements page on desktop",
+    "startedAt" : 1493005584058,
+    "endedAt" : 1493005594658,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 16,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 16
+    },
+    "testId" : "1-requirements-page-on-desktop",
+    "duration" : 10600,
+    "failed" : false
+  }, {
+    "name" : "Requirements page on ipad",
+    "startedAt" : 1493005594658,
+    "endedAt" : 1493005602907,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 16,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 16
+    },
+    "testId" : "2-requirements-page-on-ipad",
+    "duration" : 8249,
+    "failed" : false
+  }, {
+    "name" : "Requirements page on iphone",
+    "startedAt" : 1493005602907,
+    "endedAt" : 1493005611207,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 16,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 16
+    },
+    "testId" : "3-requirements-page-on-iphone",
+    "duration" : 8300,
+    "failed" : false
+  } ]
+}

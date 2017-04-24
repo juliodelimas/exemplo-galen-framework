@@ -1,0 +1,309 @@
+{
+  "testId" : "1-requirements-page",
+  "name" : "Requirements page",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://juliodelima.com.br/xdecision     1280x800",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check ./tests/visual/specs/requirements.gspec --include \"desktop\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: ./tests/visual/specs/requirements.gspec included tags: desktop",
+          "status" : "info",
+          "time" : 1493005411388,
+          "includedTags" : [ "desktop" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Topo",
+            "place" : {
+              "filePath" : "./tests/visual/specs/topo.gspec",
+              "lineNumber" : 7
+            },
+            "objects" : [ {
+              "name" : "topo.logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/topo.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "width 300 px",
+                "highlight" : [ "topo.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/topo.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "inside topo",
+                "highlight" : [ "topo.logo", "topo" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Rodape",
+            "place" : {
+              "filePath" : "./tests/visual/specs/rodape.gspec",
+              "lineNumber" : 4
+            },
+            "objects" : [ {
+              "name" : "rodape",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/rodape.gspec",
+                  "lineNumber" : 6
+                },
+                "name" : "text is \"Created by Júlio de Lima | @xdecisionco | Bugs? Send to info@juliodelima.com.br/xdecision\"",
+                "highlight" : [ "rodape" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Corpo",
+            "place" : {
+              "filePath" : "./tests/visual/specs/requirements.gspec",
+              "lineNumber" : 11
+            },
+            "objects" : [ {
+              "name" : "requirements.titulo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/requirements.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "text is \"Please, type the requirement that you want to test\"",
+                "highlight" : [ "requirements.titulo" ]
+              } ]
+            }, {
+              "name" : "requirements.subtitulo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/requirements.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "text is \"Eg. People have Name and Age, when Age is between 12 and 18 years the Message \\\"You are teenager\\\" will be showed\"",
+                "highlight" : [ "requirements.subtitulo" ]
+              } ]
+            }, {
+              "name" : "requirements.campo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/requirements.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "centered horizontally inside requirements",
+                "highlight" : [ "requirements.campo", "requirements" ]
+              } ]
+            }, {
+              "name" : "requirements.next",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/requirements.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "visible",
+                "highlight" : [ "requirements.next" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "requirements.campo" : {
+              "area" : [ 320, 267, 640, 150 ]
+            },
+            "requirements" : {
+              "area" : [ 0, 0, 1280, 829 ]
+            },
+            "requirements.subtitulo" : {
+              "area" : [ 0, 233, 1280, 18 ]
+            },
+            "requirements.titulo" : {
+              "area" : [ 0, 156, 1280, 41 ]
+            },
+            "topo.logo" : {
+              "area" : [ 490, 20, 300, 97 ]
+            },
+            "topo" : {
+              "area" : [ 0, 0, 1280, 140 ]
+            },
+            "rodape" : {
+              "area" : [ 682, 619, 598, 40 ]
+            },
+            "requirements.next" : {
+              "area" : [ 608, 433, 62, 33 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1493005408935,
+        "type" : "node"
+      }, {
+        "name" : "run   ./tests/visual/scripts/requirements.test.js",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Type \"Meu Requisito\" to requirementField on Requirements",
+          "status" : "info",
+          "nodes" : [ {
+            "name" : "css: #requirement",
+            "type" : "text"
+          } ],
+          "time" : 1493005411499,
+          "type" : "node"
+        }, {
+          "name" : "Click requirementButton on Requirements",
+          "status" : "info",
+          "nodes" : [ {
+            "name" : "css: #nxt1",
+            "type" : "text"
+          } ],
+          "time" : 1493005411690,
+          "type" : "node"
+        } ],
+        "time" : 1493005411388,
+        "type" : "node"
+      }, {
+        "name" : "check ./tests/visual/specs/inputs.gspec --include \"desktop\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: ./tests/visual/specs/inputs.gspec included tags: desktop",
+          "status" : "info",
+          "time" : 1493005414817,
+          "includedTags" : [ "desktop" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Topo",
+            "place" : {
+              "filePath" : "./tests/visual/specs/topo.gspec",
+              "lineNumber" : 7
+            },
+            "objects" : [ {
+              "name" : "topo.logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/topo.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "width 300 px",
+                "highlight" : [ "topo.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/topo.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "inside topo",
+                "highlight" : [ "topo.logo", "topo" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Rodape",
+            "place" : {
+              "filePath" : "./tests/visual/specs/rodape.gspec",
+              "lineNumber" : 4
+            },
+            "objects" : [ {
+              "name" : "rodape",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/rodape.gspec",
+                  "lineNumber" : 6
+                },
+                "name" : "text is \"Created by Júlio de Lima | @xdecisionco | Bugs? Send to info@juliodelima.com.br/xdecision\"",
+                "highlight" : [ "rodape" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Corpo",
+            "place" : {
+              "filePath" : "./tests/visual/specs/inputs.gspec",
+              "lineNumber" : 12
+            },
+            "objects" : [ {
+              "name" : "inputs.titulo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/inputs.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "text is \"Tell me one at a time, what are the inputs attributes of your requirement\"",
+                "highlight" : [ "inputs.titulo" ]
+              } ]
+            }, {
+              "name" : "inputs.subtitulo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/inputs.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "text is \"Eg. People have Name and Age, when Age is between 12 and 18 years the Message \\\"You are teenager\\\" will be showed\"",
+                "highlight" : [ "inputs.subtitulo" ]
+              } ]
+            }, {
+              "name" : "inputs.add",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/inputs.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "right-of inputs.campo 0 to 5 px",
+                "highlight" : [ "inputs.add", "inputs.campo" ]
+              } ]
+            }, {
+              "name" : "inputs.next",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "./tests/visual/specs/inputs.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "visible",
+                "highlight" : [ "inputs.next" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "inputs.titulo" : {
+              "area" : [ 0, 1035, 1280, 41 ]
+            },
+            "inputs.campo" : {
+              "area" : [ 368, 1146, 384, 32 ]
+            },
+            "inputs.subtitulo" : {
+              "area" : [ 0, 1112, 1280, 18 ]
+            },
+            "inputs.next" : {
+              "area" : [ 608, 1210, 62, 33 ]
+            },
+            "topo.logo" : {
+              "area" : [ 490, 20, 300, 97 ]
+            },
+            "topo" : {
+              "area" : [ 0, 0, 1280, 140 ]
+            },
+            "rodape" : {
+              "area" : [ 682, 619, 598, 40 ]
+            },
+            "inputs.add" : {
+              "area" : [ 756, 1146, 58, 33 ]
+            }
+          },
+          "screenshot" : "layout-2-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1493005412598,
+        "type" : "node"
+      } ],
+      "time" : 1493005404956,
+      "type" : "node"
+    } ]
+  }
+}

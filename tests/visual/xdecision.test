@@ -1,0 +1,13 @@
+@@ set
+  url http://juliodelima.com.br/xdecision
+
+@@ parameterized
+  | resolucao  | device  |
+  | 1280x800   | desktop |
+  | 1024x768   | ipad    |
+  | 640x1136   | iphone  |
+Requirements page on ${device}
+    ${url}     ${resolucao}
+        check ./tests/visual/specs/requirements.gspec --include "${device}"
+        run   ./tests/visual/scripts/requirements.test.js
+        check ./tests/visual/specs/inputs.gspec --include "${device}"

@@ -1,0 +1,30 @@
+{
+  "name": "exemplo-galen-framework",
+  "version": "1.0.0",
+  "description": "Exemplo de utilização do Galen Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/galen test tests/visual/xdecision.test --htmlreport ./tests/visual/reports/"
+  },
+  "dependencies": {
+    "galenframework": "2.3.3",
+    "chromedriver": "2.29.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliodelimas/exemplo-galen-framework.git"
+  },
+  "keywords": [
+    "galen",
+    "framework",
+    "testes",
+    "regressao",
+    "automacao"
+  ],
+  "author": "Júlio de Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliodelimas/exemplo-galen-framework/issues"
+  },
+  "homepage": "https://github.com/juliodelimas/exemplo-galen-framework#readme"
+}

@@ -1,0 +1,19 @@
+@import topo.gspec
+@import rodape.gspec
+
+@objects
+  requirements css #scr1
+    titulo css .txt-big
+    subtitulo css .txt-medium
+    campo id requirement
+    next xpath //input[@id="nxt1"][@value="Next"]
+
+= Corpo =
+  requirements.titulo:
+    text is "Please, type the requirement that you want to test"
+  requirements.subtitulo:
+    text is "Eg. People have Name and Age, when Age is between 12 and 18 years the Message \"You are teenager\" will be showed"
+  requirements.campo:
+    centered horizontally inside requirements
+  requirements.next:
+    visible

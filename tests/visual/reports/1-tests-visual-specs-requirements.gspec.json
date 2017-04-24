@@ -1,0 +1,158 @@
+{
+  "testId" : "1-tests-visual-specs-requirements.gspec",
+  "name" : "tests/visual/specs/requirements.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  tests/visual/specs/requirements.gspec --url http://juliodelima.com.br/xdecision --size 1280x800 --htmlreport ./tests/visual/reports/",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: tests/visual/specs/requirements.gspec included tags: ",
+          "status" : "info",
+          "time" : 1492999952505,
+          "sections" : [ {
+            "name" : "Topo",
+            "place" : {
+              "filePath" : "tests/visual/specs/topo.gspec",
+              "lineNumber" : 7
+            },
+            "objects" : [ {
+              "name" : "topo.logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "tests/visual/specs/topo.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "width 300 px",
+                "highlight" : [ "topo.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "tests/visual/specs/topo.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "inside topo",
+                "highlight" : [ "topo.logo", "topo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "tests/visual/specs/topo.gspec",
+                  "lineNumber" : 11
+                },
+                "name" : "left-of topo.idiomas > 300 px",
+                "highlight" : [ "topo.logo", "topo.idiomas" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Rodape",
+            "place" : {
+              "filePath" : "tests/visual/specs/rodape.gspec",
+              "lineNumber" : 4
+            },
+            "objects" : [ {
+              "name" : "rodape",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "tests/visual/specs/rodape.gspec",
+                  "lineNumber" : 6
+                },
+                "name" : "text is \"Created by Júlio de Lima | @xdecisionco | Bugs? Send to info@juliodelima.com.br/xdecision\"",
+                "highlight" : [ "rodape" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Corpo",
+            "place" : {
+              "filePath" : "tests/visual/specs/requirements.gspec",
+              "lineNumber" : 11
+            },
+            "objects" : [ {
+              "name" : "requirements.titulo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "tests/visual/specs/requirements.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "text is \"Please, type the requirement that you want to test\"",
+                "highlight" : [ "requirements.titulo" ]
+              } ]
+            }, {
+              "name" : "requirements.subtitulo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "tests/visual/specs/requirements.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "text is \"Eg. People have Name and Age, when Age is between 12 and 18 years the Message \\\"You are teenager\\\" will be showed\"",
+                "highlight" : [ "requirements.subtitulo" ]
+              } ]
+            }, {
+              "name" : "requirements.campo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "tests/visual/specs/requirements.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "centered horizontally inside requirements",
+                "highlight" : [ "requirements.campo", "requirements" ]
+              } ]
+            }, {
+              "name" : "requirements.next",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "tests/visual/specs/requirements.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "visible",
+                "highlight" : [ "requirements.next" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "topo.idiomas" : {
+              "area" : [ 1113, 0, 167, 45 ]
+            },
+            "requirements.campo" : {
+              "area" : [ 320, 267, 640, 150 ]
+            },
+            "requirements" : {
+              "area" : [ 0, 0, 1280, 829 ]
+            },
+            "requirements.subtitulo" : {
+              "area" : [ 0, 233, 1280, 18 ]
+            },
+            "requirements.titulo" : {
+              "area" : [ 0, 156, 1280, 41 ]
+            },
+            "topo.logo" : {
+              "area" : [ 490, 20, 300, 97 ]
+            },
+            "topo" : {
+              "area" : [ 0, 0, 1280, 140 ]
+            },
+            "rodape" : {
+              "area" : [ 682, 619, 598, 40 ]
+            },
+            "requirements.next" : {
+              "area" : [ 608, 433, 62, 33 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1492999950355,
+        "type" : "node"
+      } ],
+      "time" : 1492999946018,
+      "type" : "node"
+    } ]
+  }
+}

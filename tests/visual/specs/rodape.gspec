@@ -1,0 +1,6 @@
+@objects
+  rodape css .rodape
+
+= Rodape =
+  rodape:
+    text is "Created by Júlio de Lima | @xdecisionco | Bugs? Send to info@juliodelima.com.br/xdecision"

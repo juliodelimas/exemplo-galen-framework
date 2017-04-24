@@ -1,0 +1,20 @@
+@import topo.gspec
+@import rodape.gspec
+
+@objects
+  inputs css #scr2
+    titulo css .txt-big
+    subtitulo css .txt-medium
+    campo id inputs
+    add id addInput
+    next xpath //input[@id="nxt2"][@value="Next"]
+
+= Corpo =
+  inputs.titulo:
+    text is "Tell me one at a time, what are the inputs attributes of your requirement"
+  inputs.subtitulo:
+    text is "Eg. People have Name and Age, when Age is between 12 and 18 years the Message \"You are teenager\" will be showed"
+  inputs.add:
+    right-of inputs.campo 0 to 5 px
+  inputs.next:
+    visible
